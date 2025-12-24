@@ -9,7 +9,7 @@ public class Literals {
         double d = 10e23;
         char c = 'r';
         c--;
-        
+
         System.out.println(binaryNum);
         System.out.println(hexNum);
         System.out.println(accountingNum);
