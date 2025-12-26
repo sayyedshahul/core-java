@@ -2,7 +2,7 @@ package basics;
 
 public class SwitchCase {
     public static void main(String[] args){
-        int month = 5;
+        int month = 7;
         switch(month){
             case 1:
                 System.out.println("January");
@@ -19,8 +19,11 @@ public class SwitchCase {
             case 5:
                 System.out.println("May");
                 break;
+            case 6, 7, 8:
+                System.out.println("For multiple months between 6-8");
+                break;
             default:
-                System.out.println("Months after May");
+                System.out.println("Months after 8");
         }
     }
 }
