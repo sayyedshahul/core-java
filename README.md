@@ -1,6 +1,6 @@
 # Core Java Fundamentals
 
-This repository contains my structured learning of **Core Java fundamentals** with a focus on clarity, correctness, and hands-on practice.
+This repository contains my structured learning of **Core Java fundamentals**(Based on Telusko Core Java Course) with a focus on clarity, correctness, and hands-on practice.
 
 The repository is designed to demonstrate:
 - Strong understanding of Java basics
