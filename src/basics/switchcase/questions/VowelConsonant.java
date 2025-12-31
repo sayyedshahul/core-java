@@ -2,14 +2,10 @@ package basics.switchcase.questions;
 
 public class VowelConsonant {
     public static void main(String[] args){
-        char ch = '7';
+        char ch = 'E';
         if((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z')){
             switch(ch){
-                case 'a', 'A':
-                case 'e', 'E':
-                case 'i', 'I':
-                case 'o', 'O':
-                case 'u', 'U':
+                case 'a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U':
                     System.out.println("This a vowel");
                     break;
                 default:
