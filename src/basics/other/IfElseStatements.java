@@ -1,4 +1,4 @@
-package basics;
+package basics.other;
 
 public class IfElseStatements {
     public static void main(String[] args){

@@ -1,4 +1,4 @@
-package basics;
+package basics.other;
 
 public class RelationalOperators {
     public static void main(String[] args){
