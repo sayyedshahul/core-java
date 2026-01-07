@@ -11,6 +11,12 @@ class Table{
         this.colour = "brown";
     }
 
+    public Table(int height, int width, String colour){
+        this.height = height;
+        this.width = width;
+        this.colour = colour;
+    }
+
     public int getHeight(){
         return height;
     }
@@ -40,5 +46,8 @@ public class Constructor {
     public static void main(String[] args){
         Table table = new Table();
         System.out.println(table.getHeight() + " " + table.getWidth() + " " + table.getColour());
+
+        Table table2 = new Table(34, 23, "Black");
+        System.out.println(table2.getHeight() + " " + table2.getWidth() + " " + table2.getColour());
     }
 }
