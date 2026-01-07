@@ -10,4 +10,8 @@ public class Truck extends Vehicle{
         System.out.println("Unloading cargo...");
         System.out.println("Cargo unloaded sucessfully");
     }
+
+    public void startVehicle(){
+        System.out.println("Starting truck engine..");
+    }
 }
