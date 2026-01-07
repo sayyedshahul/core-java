@@ -8,6 +8,10 @@ class Building{
     public void show(){
         System.out.println(developerName + " --> " + buildingName);
     }
+
+    public static void show1(Building b){
+        System.out.println(developerName + " --> " + b.buildingName);
+    }
 }
 
 public class StaticVariableDemo {
@@ -22,5 +26,10 @@ public class StaticVariableDemo {
 
         b1.show();
         b2.show();
+
+        Building b3 = new Building();
+        b3.buildingName = "Tulsi Heights";
+
+        Building.show1(b3);
     }
 }
