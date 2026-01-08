@@ -1,15 +1,29 @@
 package basics.oop;
 
+import java.util.Objects;
+
 class Country{
     String name;
     int gdp;
 
-    public String toString(){
-        return name + " " + gdp;
+    @Override
+    public String toString() {
+        return "Country{" +
+                "name='" + name + '\'' +
+                ", gdp=" + gdp +
+                '}';
     }
 
-    public Boolean equals(Country country){
-        return this.name.equals(country.name) && this.gdp == country.gdp;
+    @Override
+    public boolean equals(Object o) {
+        if (o == null || getClass() != o.getClass()) return false;
+        Country country = (Country) o;
+        return gdp == country.gdp && Objects.equals(name, country.name);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, gdp);
     }
 }
 
