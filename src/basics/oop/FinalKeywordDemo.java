@@ -1,5 +1,20 @@
 package basics.oop;
 
+class Vehicle{
+    public final void startEngine(){
+        System.out.println("Engine running.....");
+    }
+}
+
+class Truck extends Vehicle{
+   /*
+    public void startEngine(){
+        System.out.println("Engine running.....");
+    }
+    Not possbile due to final startEngine method in Vehicle class.
+    */
+}
+
 final class Calc{ //This would prevent subclass creation.
     public void show(){
         System.out.println("In show");
