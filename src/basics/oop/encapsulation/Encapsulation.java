@@ -1,4 +1,4 @@
-package basics.oop;
+package basics.oop.encapsulation;
 
 class Hotel{
     private double earnings;
