@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args){
-        int num1;
-        int num2;
+        double num1;
+        double num2;
         int operation;
         Scanner scn = new Scanner(System.in);
         char isContinue = 'y';
@@ -13,9 +13,9 @@ public class Main {
 
         while(isContinue == 'y') {
             System.out.print("Input number 1: ");
-            num1 = scn.nextInt();
+            num1 = scn.nextDouble();
             System.out.print("Input number 2: ");
-            num2 = scn.nextInt();
+            num2 = scn.nextDouble();
             calc.setNum1(num1);
             calc.setNum2(num2);
 
