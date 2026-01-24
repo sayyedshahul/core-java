@@ -35,7 +35,7 @@ public class LinkedListDemo {
         list.removeAll(list2);
         System.out.println(list);
 
-        list.removeIf(x -> x.toString().charAt(x.toString().length() - 1) == '1'); 
+        list.removeIf(x -> x.toString().charAt(x.toString().length() - 1) == '1');
         System.out.println(list);
     }
 }
