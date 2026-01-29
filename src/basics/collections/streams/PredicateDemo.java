@@ -5,6 +5,15 @@ import java.util.List;
 import java.util.function.Predicate;
 
 class Book{
+    @Override
+    public String toString() {
+        return "Book{" +
+                "title='" + title + '\'' +
+                ", price=" + price +
+                ", pages=" + pages +
+                '}';
+    }
+
     public Book(String title, int price, int pages) {
         this.title = title;
         this.price = price;
